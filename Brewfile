@@ -8,7 +8,7 @@ brew "aws-elasticbeanstalk"
 brew "awscli"
 brew "bash-snippets"
 brew "cmake"
-brew "python", link: false
+brew "python"
 brew "ddgr"
 brew "elm"
 brew "fzf"
@@ -18,11 +18,6 @@ brew "geckodriver"
 brew "git"
 brew "gnupg"
 brew "gradle"
-brew "libxml2"
-brew "libimobiledevice", args: ["HEAD"]
-brew "ideviceinstaller"
-brew "libusbmuxd", args: ["HEAD"]
-brew "llvm"
 brew "make"
 brew "neofetch"
 brew "node"
@@ -35,10 +30,10 @@ brew "telnet"
 brew "tmux"
 brew "vim"
 brew "wget"
-brew "wireshark", link: false
 brew "yarn"
 brew "zsh"
 brew "mongodb/brew/mongodb-community-shell"
+
 cask "argouml"
 cask "figma"
 cask "font-hack-nerd-font"
@@ -49,3 +44,14 @@ cask "postman"
 cask "telegram"
 cask "webex-meetings"
 cask "wireshark"
+cask 'brave-browser'
+cask 'dashlane'
+cask 'discord'
+cask 'docker'
+cask 'intellij-idea'
+cask 'iterm2'
+cask 'slack'
+cask 'spotify'
+cask 'visual-studio-code'
+cask 'vlc'
+cask 'xquartz'
