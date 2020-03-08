@@ -102,7 +102,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source $ZSH_CUSTOM/aliases.zsh
+source ~/.aliases.zsh
 
 export PATH=$PATH:/usr/local/mysql/bin
 source ~/.iterm2_shell_integration.zsh
