@@ -5,7 +5,7 @@ export PATH="$PATH:/Users/fahadsiddiqi/flutter/flutter/bin"
 export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/fahadsiddiqi/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -102,7 +102,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source $ZSH_CUSTOM/aliases.zsh
+source ~/.aliases.zsh
 
 export PATH=$PATH:/usr/local/mysql/bin
 source ~/.iterm2_shell_integration.zsh
