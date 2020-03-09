@@ -27,5 +27,5 @@ alias tmux='tmux -2'
 #VS Code alias
 alias code='open -a Visual\ Studio\ Code'
 
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
