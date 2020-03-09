@@ -10,15 +10,16 @@ set rtp+=/usr/local/opt/fzf
 set spelllang=en_us
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
-"let g:ycm_show_diagnostics_ui = 0
 "let g:gruvbox_contrast_dark='dark'
 "let g:gruvbox_termcolors = '256'
+set background=dark
+let g:edge_style = 'proton'
+let g:edge_disable_italic_comment = 1
 let mapleader = ","
 if (has('termguicolors'))
 	set termguicolors
 endif
-let g:material_theme_style = 'darker'
-colorscheme material
+colorscheme edge
 "let g:lightline = { 'colorscheme': 'material_vim' }
 map <tab> :NERDTreeToggle<CR>
 " NERDTress File highlighting
@@ -57,5 +58,7 @@ Bundle 'morhetz/gruvbox'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'sainnhe/edge'
+Plugin 'sheerun/vim-polyglot'
 call vundle#end()            " required
 filetype plugin indent on    " required
