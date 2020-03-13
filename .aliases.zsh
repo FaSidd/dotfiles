@@ -24,8 +24,6 @@ alias sdp='cd ~/homeworks/COSC\ 4354/wednesday'
 #Tmux Aliases
 alias tls='tmux ls'
 alias tmux='tmux -2'
-#VS Code alias
-alias code='open -a Visual\ Studio\ Code'
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 

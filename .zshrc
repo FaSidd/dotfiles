@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$PATH:/Users/fahadsiddiqi/flutter/flutter/bin"
+export PATH="$PATH:$HOME/flutter/flutter/bin"
 #Python Path to module
 export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages"
 
