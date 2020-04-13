@@ -20,7 +20,7 @@ alias reboot='sudo reboot'
 
 #Directory Alliases
 alias report='open build/reports/jacoco/test/html/index.html'
-alias sdp='cd ~/homeworks/COSC\ 4354/wednesday'
+alias sdp='cd ~/UH/COSC\ 4354/wednesday'
 #Tmux Aliases
 alias tls='tmux ls'
 alias tmux='tmux -2'
