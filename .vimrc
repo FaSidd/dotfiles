@@ -73,6 +73,9 @@ endfunction
 " Highlight symbol and its references on cursor hover for COC
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+" Prettier command for COC
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 " NERDTree File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
