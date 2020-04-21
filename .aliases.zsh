@@ -18,12 +18,13 @@ alias shutdown='sudo shutdown -h now'
 alias halt='sudo halt'
 alias reboot='sudo reboot'
 
-#Directory Alliases
+#Directory & File Alliases
 alias report='open build/reports/jacoco/test/html/index.html'
 alias sdp='cd ~/UH/COSC\ 4354/wednesday'
+alias plato='open report/index.html'
+
 #Tmux Aliases
 alias tls='tmux ls'
-alias tmux='tmux -2'
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
