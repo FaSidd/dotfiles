@@ -296,7 +296,7 @@ vnoremap <Leader>tc c<C-r>=system('tcc', getreg('"'))[:-2]<CR>
 let g:NERDTreeAutoDeleteBuffer=1
 
 " Open NERDTree with TAB key
-map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 
 " Open nerd tree at the current file or close nerd tree if pressed again.
 nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
