@@ -1,5 +1,4 @@
-
-#General aliases
+# General aliases
 alias ls='ls -G'
 alias c='clear'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
@@ -13,23 +12,26 @@ alias lsl='ls -l'
 alias lsa='ls -a'
 alias vim='/usr/local/bin/nvim'
 
-#System Alliases
+# System Alliases
 alias shutdown='sudo shutdown -h now'
 alias halt='sudo halt'
 alias reboot='sudo reboot'
 
-#Directory & File Alliases
+# Directory & File Alliases
 alias report='open build/reports/jacoco/test/html/index.html'
 alias sdp='cd ~/UH/COSC\ 4354/wednesday'
 alias plato='open report/index.html'
 
-#Ranger launch
+# git aliases
+alias guc='git reset --soft HEAD~1'
+
+# Ranger launch
 alias rgr='ranger'
 
-#Nvim init.vim
+# Nvim init.vim
 alias viminit='vim ~/.config/nvim/init.vim'
 
-#Tmux Aliases
+# Tmux Aliases
 alias tls='tmux ls'
 alias ta='tmux attach'
 alias tat='tmux attach -t'
