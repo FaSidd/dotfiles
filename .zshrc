@@ -8,8 +8,10 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/flutter/flutter/bin"
+# Golang Path
+export GOPATH=$HOME/go
 #Python Path to module
-export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages"
+# export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/4.6/lib/python3.6/site-packages"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
