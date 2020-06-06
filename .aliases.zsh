@@ -24,6 +24,7 @@ alias plato='open report/index.html'
 
 # git aliases
 alias guc='git reset --soft HEAD~1'
+alias gitp="git fetch -p && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done"
 
 # Ranger launch
 alias rgr='ranger'
