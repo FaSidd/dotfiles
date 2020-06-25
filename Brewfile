@@ -51,7 +51,7 @@ cask "dashlane"
 cask "discord"
 cask "docker"
 cask "figma"
-cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 cask "gimp"
 cask "intellij-idea"
@@ -68,6 +68,7 @@ cask "spotify"
 cask "telegram"
 cask "visual-studio-code"
 cask "vlc"
+cask "vnc-viewer"
 cask "webex-meetings"
 cask "wireshark"
 cask "xquartz"
@@ -77,4 +78,5 @@ mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Shazam", id: 897118787
 mas "WireGuard", id: 1451685025
