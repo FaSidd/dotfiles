@@ -120,4 +120,3 @@ if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew comma
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
-export PATH="/usr/local/sbin:$PATH"
