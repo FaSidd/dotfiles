@@ -10,6 +10,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/flutter/flutter/bin"
 # Golang Path
 export GOPATH=$HOME/go
+export PATH="$GOPATH/bin:$PATH"
 #Python Path to module
 # export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/4.6/lib/python3.6/site-packages"
 
@@ -115,8 +116,11 @@ source ~/.aliases.zsh
 
 export PATH=$PATH:/usr/local/mysql/bin
 source ~/.iterm2_shell_integration.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
