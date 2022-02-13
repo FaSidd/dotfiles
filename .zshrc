@@ -79,8 +79,6 @@ plugins=(
 	fzf
 	osx
 	colored-man-pages
-	docker
-	docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -124,3 +122,4 @@ if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew comma
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+typeset -U PATH
